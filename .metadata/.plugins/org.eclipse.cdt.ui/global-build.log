@@ -1,2 +1,5 @@
-21:48:44 **** Clean-only build of configuration Debug for project Polymorphism ****
-rm -rf 
+22:22:30 **** Incremental Build of configuration Debug for project Polymorphism ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Duck_Example_Poly.o "..\\Duck_Example_Poly.cpp" 
+g++ -o Polymorphism.exe Quack.o MuteQuack.o FlyWithWings.o FlyNoWay.o Duck_Example_Poly.o Duck.o 
+Info: Nothing to build for Polymorphism

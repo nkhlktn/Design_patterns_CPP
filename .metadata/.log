@@ -195,3 +195,6 @@ Binding(F4,
 !MESSAGE OK
 !SUBENTRY 1 org.eclipse.core.resources 4 77 2014-09-19 21:52:09.296
 !MESSAGE C:\Users\Nikhil\Documents\GitHub\Duck overlaps the workspace location: C:\Users\Nikhil\Documents\GitHub\Duck
+
+!ENTRY org.eclipse.equinox.security 1 0 2014-09-19 22:24:23.335
+!MESSAGE New keyring password generated. 

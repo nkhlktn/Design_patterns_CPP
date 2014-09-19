@@ -1,0 +1,15 @@
+/*
+ * MuteQuack.cpp
+ *
+ *  Created on: Sep 18, 2014
+ *      Author: Nikhil
+ */
+
+#include "MuteQuack.h"
+#include<iostream>
+using namespace std;
+
+void MuteQuack::quack()
+{
+	cout<<"I dont quack"<<endl;
+}
