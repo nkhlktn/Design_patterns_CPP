@@ -9,7 +9,8 @@
 #include "iostream"
 using namespace std;
 
-FlyWithWings::FlyWithWings() {
+FlyWithWings::~FlyWithWings()
+{
 
 }
 

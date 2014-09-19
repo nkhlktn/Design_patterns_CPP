@@ -9,10 +9,10 @@
 #include <iostream>
 using namespace std;
 
-	Duck::Duck()
-	{
+Duck::Duck()
+{
 
-	}
+}
 
 	void Duck::performfly()
 	{

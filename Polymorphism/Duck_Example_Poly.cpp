@@ -19,5 +19,8 @@ int main() {
 	Quack quack_inst;
 	duck_inst.flybehaviour = &fly_inst;
 	duck_inst.quackbehaviour = &quack_inst;
+	duck_inst.performfly();
+	duck_inst.performQuack();
+	duck_inst.swim();
 	return 0;
 }

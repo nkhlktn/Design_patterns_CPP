@@ -13,7 +13,7 @@
 class FlyWithWings: public FlyBehaviour {
 public:
 	virtual void fly();
-	FlyWithWings();
+	virtual ~FlyWithWings();
 };
 
 #endif /* FLYWITHWINGS_H_ */

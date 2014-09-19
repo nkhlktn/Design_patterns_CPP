@@ -11,7 +11,7 @@
 class FlyBehaviour
 {
 public:
-	virtual void fly();
+	virtual void fly() = 0;
 };
 
 

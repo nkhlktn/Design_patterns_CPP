@@ -9,11 +9,6 @@
 #include<iostream>
 using namespace std;
 
-MuteQuack::MuteQuack() {
-	// TODO Auto-generated constructor stub
-
-}
-
 MuteQuack::~MuteQuack() {
 	// TODO Auto-generated destructor stub
 }

@@ -12,7 +12,7 @@
 class QuackBehaviour
 {
 public:
-	virtual void quack();
+	virtual void quack() = 0;
 };
 
 
