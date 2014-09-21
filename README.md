@@ -7,3 +7,4 @@ Design Principles
 1) Identify the aspects of your application that vary and separate them from what stays same.
 2) Program to an interface and not to an implementation.
 3) Favour composition over inheritance.
+4) Loosely coupled objects should be favoured.

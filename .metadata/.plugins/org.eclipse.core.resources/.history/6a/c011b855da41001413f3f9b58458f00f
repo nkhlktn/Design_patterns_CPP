@@ -4,9 +4,7 @@
  *  Created on: Sep 21, 2014
  *      Author: Nikhil
  */
-//Learning was interfaces in c++
-//Interfaces can be created with the help of abstract classes
-//A pointer of an abstract class can be used
+
 #ifndef SUBJECTINTERFACE_H_
 #define SUBJECTINTERFACE_H_
 
