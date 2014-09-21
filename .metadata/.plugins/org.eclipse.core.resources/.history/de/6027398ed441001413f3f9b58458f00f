@@ -1,0 +1,18 @@
+/*
+ * SubjectInterface.cpp
+ *
+ *  Created on: Sep 21, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:SubjectInterface.h"
+
+Subject_Interface::Subject_Interface() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Subject_Interface::~Subject_Interface() {
+	// TODO Auto-generated destructor stub
+}
+

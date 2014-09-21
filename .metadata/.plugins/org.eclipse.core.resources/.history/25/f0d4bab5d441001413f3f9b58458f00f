@@ -1,0 +1,17 @@
+/*
+ * ObserverInterface.h
+ *
+ *  Created on: Sep 21, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef OBSERVERINTERFACE_H_
+#define OBSERVERINTERFACE_H_
+
+class Observer_Interface {
+public:
+	Observer_Interface();
+	~Observer_Interface();
+};
+
+#endif /* OBSERVERINTERFACE_H_ */

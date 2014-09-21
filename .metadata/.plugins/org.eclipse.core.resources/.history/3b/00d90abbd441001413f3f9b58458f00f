@@ -1,0 +1,18 @@
+/*
+ * ObserverInterface.cpp
+ *
+ *  Created on: Sep 21, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:ObserverInterface.h"
+
+Observer_Interface::Observer_Interface() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Observer_Interface::~Observer_Interface() {
+	// TODO Auto-generated destructor stub
+}
+

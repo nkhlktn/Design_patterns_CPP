@@ -1,4 +1,9 @@
 Duck
 ====
-This project was created to learmn about design patterns.
+This project was created to learn about design patterns.
 
+Design Principles
+-----------------
+1) Identify the aspects of your application that vary and separate them from what stays same.
+2) Program to an interface and not to an implementation.
+3) Favour composition over inheritance.

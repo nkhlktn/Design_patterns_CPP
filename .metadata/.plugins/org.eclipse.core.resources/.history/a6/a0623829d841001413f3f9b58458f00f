@@ -1,0 +1,26 @@
+/*
+ * WeatherData.cpp
+ *
+ *  Created on: Sep 21, 2014
+ *      Author: Nikhil
+ */
+
+#include "WeatherData.h"
+
+WeatherData::WeatherData() {
+	tail = 0;
+}
+
+WeatherData::~WeatherData() {
+	// TODO Auto-generated destructor stub
+}
+
+void WeatherData::registerObserver(Observer_Interface* O)
+{
+	observers[tail] = O;
+	tail++;
+}
+
+void WeatherData::removeObserver(Observer_Interface*)
+	observer[tail] =
+}
