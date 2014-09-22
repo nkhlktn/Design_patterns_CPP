@@ -1,13 +1,2 @@
-22:22:30 **** Incremental Build of configuration Debug for project Polymorphism ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Duck_Example_Poly.o "..\\Duck_Example_Poly.cpp" 
-g++ -o Polymorphism.exe Quack.o MuteQuack.o FlyWithWings.o FlyNoWay.o Duck_Example_Poly.o Duck.o 
-Info: Nothing to build for Polymorphism
-22:15:44 **** Rebuild of configuration Debug for project Observer ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SubjectInterface.o "..\\SubjectInterface.cpp" 
-..\SubjectInterface.cpp:8:32: fatal error: C:SubjectInterface.h: No such file or directory
- #include "C:SubjectInterface.h"
-                                ^
-compilation terminated.
+Info: Nothing to build for Observer
 Info: Nothing to build for Observer

@@ -1,0 +1,18 @@
+/*
+ * CurrentConditionsDisplay.cpp
+ *
+ *  Created on: Sep 22, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:CurrentConditionsDisplay.h"
+
+CurrentConditionsDisplay::CurrentConditionsDisplay() {
+	// TODO Auto-generated constructor stub
+
+}
+
+CurrentConditionsDisplay::~CurrentConditionsDisplay() {
+	// TODO Auto-generated destructor stub
+}
+

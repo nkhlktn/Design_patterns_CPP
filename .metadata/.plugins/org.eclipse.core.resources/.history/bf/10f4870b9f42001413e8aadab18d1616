@@ -38,7 +38,7 @@ void WeatherData::notifyObserver()
 {
 	for(int counter = 0; counter < tail; counter++)
 	{
-		observers[counter]->update(temperature,humidity,pressure);
+		observers[tail]->update(temperature,humidity,pressure);
 	}
 }
 

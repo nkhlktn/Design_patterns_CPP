@@ -1,0 +1,18 @@
+/*
+ * WeatherStation.cpp
+ *
+ *  Created on: Sep 22, 2014
+ *      Author: Nikhil
+ */
+#include "WeatherData.h"
+#include "CurrentConditionsDisplay.h"
+
+int main()
+{
+	WeatherData weatherdata = new WeatherData();
+
+	return 0;
+}
+
+
+
