@@ -1,2 +1,10 @@
-Info: Nothing to build for Observer
-Info: Nothing to build for Observer
+22:59:25 **** Incremental Build of configuration Debug for project Decorator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o StarbuzzCoffee.o "..\\StarbuzzCoffee.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Whip.o "..\\Whip.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Soy.o "..\\Soy.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Espresso.o "..\\Espresso.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o HouseBlend.o "..\\HouseBlend.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Mocha.o "..\\Mocha.cpp" 
+g++ -o Decorator.exe Whip.o StarbuzzCoffee.o Soy.o Mocha.o HouseBlend.o Espresso.o 
+Info: Nothing to build for Decorator

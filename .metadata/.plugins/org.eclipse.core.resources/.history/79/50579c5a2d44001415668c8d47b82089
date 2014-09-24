@@ -1,0 +1,18 @@
+/*
+ * Mocha.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "Mocha.h"
+
+Mocha::Mocha() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Mocha::~Mocha() {
+	// TODO Auto-generated destructor stub
+}
+

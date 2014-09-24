@@ -1,0 +1,26 @@
+/*
+ * StarbuzzCoffee.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "HouseBlend.h"
+#include "Mocha.h"
+#include "Soy.h"
+#include "Whip.h"
+#include "Espresso.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	Beverage *beverage = new Espresso();
+	cout<< beverage->getDescription()<<": $"<<beverage->getCost();
+
+	Beverage *beverage2 = new Espresso();
+	beverage2 = new Soy(beverage2);
+	return 0;
+}
+
+

@@ -1,0 +1,19 @@
+/*
+ * Whip.h
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef WHIP_H_
+#define WHIP_H_
+
+#include "C:CondimentDecorator.h"
+
+class Whip: public CondimentDecorator {
+public:
+	Whip();
+	~Whip();
+};
+
+#endif /* WHIP_H_ */

@@ -1,0 +1,18 @@
+/*
+ * Espresso.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "Espresso.h"
+
+Espresso::Espresso() {
+	description = "Espresso";
+
+}
+
+Espresso::~Espresso() {
+	// TODO Auto-generated destructor stub
+}
+

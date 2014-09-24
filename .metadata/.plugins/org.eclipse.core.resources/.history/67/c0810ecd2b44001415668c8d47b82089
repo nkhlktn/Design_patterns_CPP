@@ -1,0 +1,18 @@
+/*
+ * CondimentDecorator.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:CondimentDecorator.h"
+
+CondimentDecorator::CondimentDecorator() {
+	// TODO Auto-generated constructor stub
+
+}
+
+CondimentDecorator::~CondimentDecorator() {
+	// TODO Auto-generated destructor stub
+}
+

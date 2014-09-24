@@ -1,0 +1,18 @@
+/*
+ * HouseBlend.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:HouseBlend.h"
+
+HouseBlend::HouseBlend() {
+	// TODO Auto-generated constructor stub
+
+}
+
+HouseBlend::~HouseBlend() {
+	// TODO Auto-generated destructor stub
+}
+

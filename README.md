@@ -8,3 +8,4 @@ Design Principles
 2) Program to an interface and not to an implementation.
 3) Favour composition over inheritance.
 4) Loosely coupled objects should be favoured.
+5) Classes should be closed for modification but should be open for extension.

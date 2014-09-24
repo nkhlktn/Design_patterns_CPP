@@ -1,0 +1,17 @@
+/*
+ * Soy.cpp
+ *
+ *  Created on: Sep 24, 2014
+ *      Author: Nikhil
+ */
+
+#include "Soy.h"
+
+Soy::Soy(Beverage beverage) {
+	this->beverage = beverage;
+}
+
+Soy::~Soy() {
+	// TODO Auto-generated destructor stub
+}
+
