@@ -1,0 +1,41 @@
+/*
+ * Pizza.h
+ *
+ *  Created on: Sep 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef PIZZA_H_
+#define PIZZA_H_
+
+
+#include<string>
+#include<iostream>
+using namespace std;
+
+class Pizza {
+public:
+	string name;
+	string dough;
+	string sauce;
+
+	Pizza();
+	~Pizza();
+	void prepare()
+	{
+		cout<<"Preparing "<<name<<endl;
+		cout<<"Tossing the dough... "<<endl;
+		cout<<"Adding the sauce..."<<endl;
+	}
+	void bake()
+	{
+		cout<<"Baking for 25 minutes"<<endl;
+	}
+	void cut()
+	{
+		cout<<"Cutting into diagonal pieces"<<endl;
+	}
+	void box() = 0;
+};
+
+#endif /* PIZZA_H_ */

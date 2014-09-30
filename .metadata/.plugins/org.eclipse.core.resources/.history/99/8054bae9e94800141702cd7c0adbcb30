@@ -1,0 +1,19 @@
+/*
+ * ChicagoStyleCheesePizza.h
+ *
+ *  Created on: Sep 30, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef CHICAGOSTYLECHEESEPIZZA_H_
+#define CHICAGOSTYLECHEESEPIZZA_H_
+
+#include "Pizza.h"
+
+class ChicagoStyleCheesePizza: public Pizza {
+public:
+	ChicagoStyleCheesePizza();
+	~ChicagoStyleCheesePizza();
+};
+
+#endif /* CHICAGOSTYLECHEESEPIZZA_H_ */

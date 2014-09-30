@@ -1,0 +1,22 @@
+/*
+ * NYStore.cpp
+ *
+ *  Created on: Sep 30, 2014
+ *      Author: Nikhil
+ */
+
+#include "NYStore.h"
+
+NYStore::NYStore() {
+	// TODO Auto-generated constructor stub
+
+}
+
+NYStore::~NYStore() {
+	// TODO Auto-generated destructor stub
+}
+
+Pizza* createPizza(string type)
+{
+
+}

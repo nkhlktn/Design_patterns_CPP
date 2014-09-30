@@ -1,0 +1,21 @@
+/*
+ * Pizza.h
+ *
+ *  Created on: Sep 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef PIZZA_H_
+#define PIZZA_H_
+
+class Pizza {
+public:
+	Pizza();
+	~Pizza();
+	void prepare() = 0;
+	void bake() = 0;
+	void cut() = 0;
+	void box() = 0;
+};
+
+#endif /* PIZZA_H_ */

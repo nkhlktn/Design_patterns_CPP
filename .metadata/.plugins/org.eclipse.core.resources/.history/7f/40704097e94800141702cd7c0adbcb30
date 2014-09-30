@@ -1,0 +1,19 @@
+/*
+ * NYStyleCheesePizza.h
+ *
+ *  Created on: Sep 30, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef NYSTYLECHEESEPIZZA_H_
+#define NYSTYLECHEESEPIZZA_H_
+
+#include "C:Pizza.h"
+
+class NYStyleCheesePizza: public Pizza {
+public:
+	NYStyleCheesePizza();
+	~NYStyleCheesePizza();
+};
+
+#endif /* NYSTYLECHEESEPIZZA_H_ */

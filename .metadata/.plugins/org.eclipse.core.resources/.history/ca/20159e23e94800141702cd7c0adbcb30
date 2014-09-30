@@ -1,0 +1,18 @@
+/*
+ * NYStyleCheesePizza.cpp
+ *
+ *  Created on: Sep 30, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:NYStyleCheesePizza.h"
+
+NYStyleCheesePizza::NYStyleCheesePizza() {
+	// TODO Auto-generated constructor stub
+
+}
+
+NYStyleCheesePizza::~NYStyleCheesePizza() {
+	// TODO Auto-generated destructor stub
+}
+

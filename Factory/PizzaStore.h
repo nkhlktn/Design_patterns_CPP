@@ -14,16 +14,25 @@ using namespace std;
 
 class PizzaStore {
 protected:
-	Pizza createPizza(string type) = 0;
+	virtual Pizza* createPizza(string type) = 0;
 
 public:
-	PizzaStore();
-	~PizzaStore();
-	Pizza* orderPizza(string type)
+	PizzaStore()
+	{
+
+	}
+	~PizzaStore()
+	{
+
+	}
+	void orderPizza(string type)
 	{
 		Pizza* pizza;
 		pizza = createPizza(type);
-
+		pizza->prepare();
+		pizza->bake();
+		pizza->cut();
+		pizza->box();
 	}
 };
 
