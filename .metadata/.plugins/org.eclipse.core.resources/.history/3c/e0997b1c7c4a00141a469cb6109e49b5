@@ -17,13 +17,8 @@
 int main()
 {
 	PizzaStore* nystore = new NYStore();
-	nystore->orderPizza("cheese");
-
-	PizzaStore* chicagostore = new ChicagoStore();
-	chicagostore->orderPizza("cheese");
 	return 0;
 }
 
 
 
-//Abstract classes or for that matter any class cannot be inherited privately in C++ as the sub class cannot be inherited.

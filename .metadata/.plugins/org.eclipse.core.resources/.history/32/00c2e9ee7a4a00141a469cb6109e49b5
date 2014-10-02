@@ -6,8 +6,6 @@
  */
 
 #include "ChicagoStore.h"
-#include "ChicagoStyleCheesePizza.h"
-#include "ChicagoStyleClamPizza.h"
 
 ChicagoStore::ChicagoStore() {
 	// TODO Auto-generated constructor stub
@@ -18,7 +16,7 @@ ChicagoStore::~ChicagoStore() {
 	// TODO Auto-generated destructor stub
 }
 
-Pizza* ChicagoStore::createPizza(string type)
+Pizza* createPizza(string type)
 {
 	Pizza* pizza;
 
@@ -33,7 +31,7 @@ Pizza* ChicagoStore::createPizza(string type)
 		else
 		{
 			cout<<"Come on this is just an example"<<endl;
-			pizza = new ChicagoStyleClamPizza();
+			pizza = new NYStyleClamPizza();
 		}
 		return pizza;
 }

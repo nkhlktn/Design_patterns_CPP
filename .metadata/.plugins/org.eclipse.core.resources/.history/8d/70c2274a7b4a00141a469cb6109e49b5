@@ -10,12 +10,12 @@
 
 #include "PizzaStore.h"
 
-class NYStore: public PizzaStore {
+class NYStore: protected PizzaStore {
 public:
 	NYStore();
 	~NYStore();
 protected:
-	virtual Pizza* createPizza(string type);
+	virtual Pizza createPizza(string type);
 };
 
 #endif /* NYSTORE_H_ */

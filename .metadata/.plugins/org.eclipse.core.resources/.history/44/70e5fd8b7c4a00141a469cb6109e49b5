@@ -20,7 +20,7 @@ NYStore::~NYStore() {
 	// TODO Auto-generated destructor stub
 }
 
-Pizza* NYStore::createPizza(string type)
+Pizza* createPizza(string type)
 {
 	Pizza* pizza;
 

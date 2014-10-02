@@ -19,14 +19,8 @@ public:
 	string dough;
 	string sauce;
 
-	Pizza()
-	{
-
-	}
-	~Pizza()
-	{
-
-	}
+	Pizza();
+	~Pizza();
 	virtual void prepare()
 	{
 		cout<<"Preparing "<<name<<endl;

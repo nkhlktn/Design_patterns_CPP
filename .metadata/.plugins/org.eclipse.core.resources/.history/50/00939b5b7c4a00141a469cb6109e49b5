@@ -10,7 +10,7 @@
 
 #include "PizzaStore.h"
 
-class NYStore: public PizzaStore {
+class NYStore: protected PizzaStore {
 public:
 	NYStore();
 	~NYStore();

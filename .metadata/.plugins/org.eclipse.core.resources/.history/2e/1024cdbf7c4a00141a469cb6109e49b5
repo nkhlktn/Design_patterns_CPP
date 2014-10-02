@@ -17,10 +17,8 @@
 int main()
 {
 	PizzaStore* nystore = new NYStore();
-	nystore->orderPizza("cheese");
 
-	PizzaStore* chicagostore = new ChicagoStore();
-	chicagostore->orderPizza("cheese");
+
 	return 0;
 }
 

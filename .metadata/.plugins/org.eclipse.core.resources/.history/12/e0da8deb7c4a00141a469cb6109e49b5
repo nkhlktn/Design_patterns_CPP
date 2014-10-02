@@ -20,7 +20,6 @@ int main()
 	nystore->orderPizza("cheese");
 
 	PizzaStore* chicagostore = new ChicagoStore();
-	chicagostore->orderPizza("cheese");
 	return 0;
 }
 

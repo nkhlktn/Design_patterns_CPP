@@ -1,0 +1,19 @@
+/*
+ * ChicagoStyleClamPizza.h
+ *
+ *  Created on: Oct 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef CHICAGOSTYLECLAMPIZZA_H_
+#define CHICAGOSTYLECLAMPIZZA_H_
+
+#include "C:Pizza.h"
+
+class ChicagoStyleClamPizza: public Pizza {
+public:
+	ChicagoStyleClamPizza();
+	~ChicagoStyleClamPizza();
+};
+
+#endif /* CHICAGOSTYLECLAMPIZZA_H_ */

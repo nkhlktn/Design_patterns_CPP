@@ -9,7 +9,6 @@
 #include<string>
 using namespace std;
 #include "NYStyleCheesePizza.h"
-#include "NYStyleClamPizza.h"
 
 NYStore::NYStore() {
 	// TODO Auto-generated constructor stub
@@ -20,7 +19,7 @@ NYStore::~NYStore() {
 	// TODO Auto-generated destructor stub
 }
 
-Pizza* NYStore::createPizza(string type)
+Pizza* createPizza(string type)
 {
 	Pizza* pizza;
 
