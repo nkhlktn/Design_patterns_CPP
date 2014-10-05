@@ -1,5 +1,2 @@
-22:41:57 **** Incremental Build of configuration Debug for project Factory ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Factory main.o NYStore.o ChicagoStore.o 
-Info: Nothing to build for Factory
+11:29:55 **** Clean-only build of configuration Debug for project SimpleFactory ****
+rm -rf main.d SimpleFactory.exe main.o 
