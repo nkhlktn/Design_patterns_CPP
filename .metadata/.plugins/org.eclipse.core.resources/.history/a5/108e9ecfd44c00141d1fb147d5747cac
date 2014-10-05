@@ -1,0 +1,18 @@
+/*
+ * GargeLightOn.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:GargeLightOn.h"
+
+GargeLightOn::GargeLightOn() {
+	// TODO Auto-generated constructor stub
+
+}
+
+GargeLightOn::~GargeLightOn() {
+	// TODO Auto-generated destructor stub
+}
+

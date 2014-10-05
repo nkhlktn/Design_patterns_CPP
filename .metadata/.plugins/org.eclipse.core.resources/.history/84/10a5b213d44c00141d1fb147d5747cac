@@ -1,0 +1,19 @@
+/*
+ * NoCommand.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef NOCOMMAND_H_
+#define NOCOMMAND_H_
+
+#include "C:Command.h"
+
+class NoCommand: public Command {
+public:
+	NoCommand();
+	~NoCommand();
+};
+
+#endif /* NOCOMMAND_H_ */

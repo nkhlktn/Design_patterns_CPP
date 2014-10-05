@@ -1,4 +1,4 @@
-22:00:27 **** Rebuild of configuration Debug for project Command ****
+22:24:16 **** Incremental Build of configuration Debug for project Command ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o Command.exe main.o 

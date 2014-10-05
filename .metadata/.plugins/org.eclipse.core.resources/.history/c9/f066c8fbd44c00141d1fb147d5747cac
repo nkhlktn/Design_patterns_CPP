@@ -1,0 +1,17 @@
+/*
+ * GargeLightOn.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GARGELIGHTON_H_
+#define GARGELIGHTON_H_
+
+class GargeLightOn {
+public:
+	GargeLightOn();
+	~GargeLightOn();
+};
+
+#endif /* GARGELIGHTON_H_ */

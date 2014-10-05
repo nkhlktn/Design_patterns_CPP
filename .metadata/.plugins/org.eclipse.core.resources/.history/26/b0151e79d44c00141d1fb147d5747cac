@@ -19,23 +19,16 @@ public:
 		NoCommand *obj = new NoCommand();
 		for(int counter = 0; counter < numberOfCommands; counter++)
 		{
-			customCommand1_ON[counter] = obj;
-			customCommand1_OFF[counter] = obj;
+			customCommand1_ON[0] = obj;
+			customCommand1_OFF[0] = obj;
 		}
 	}
-
 	~RemoteControl()
 	{
 
 	}
 	Command* customCommand1_ON[numberOfCommands];
 	Command* customCommand1_OFF[numberOfCommands];
-
-	void setCommand(int slot, Command* on, Command* off)
-	{
-		customCommand1_ON[slot] = on;
-		customCommand1_OFF[slot] = off;
-	}
 };
 
 #endif /* REMOTECONTROL_H_ */

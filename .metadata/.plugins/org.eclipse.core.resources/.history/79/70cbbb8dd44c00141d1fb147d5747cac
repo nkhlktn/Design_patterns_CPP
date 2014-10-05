@@ -33,8 +33,8 @@ public:
 
 	void setCommand(int slot, Command* on, Command* off)
 	{
-		customCommand1_ON[slot] = on;
-		customCommand1_OFF[slot] = off;
+		customCommand1_ON[0] = obj;
+		customCommand1_OFF[0] = obj;
 	}
 };
 

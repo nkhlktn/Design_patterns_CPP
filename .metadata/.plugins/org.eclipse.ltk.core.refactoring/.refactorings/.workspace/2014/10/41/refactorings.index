@@ -9,3 +9,6 @@
 1412542160954	Delete resource 'Command/LightOnCommand.cpp'
 1412542728291	Delete resource 'Command/LightOffCommand.cpp'
 1412542739370	Delete resource 'Command/RemoteControl.cpp'
+1412543420823	Delete resource 'Command/NoCommand.cpp'
+1412543762810	Delete resource 'Command/GargeLightOn.cpp'
+1412544079383	Delete resource 'Command/GarageLightDim.cpp'

@@ -33,8 +33,5 @@ int main()
 
 	cout<<"-------------------------------------------------"<<endl;
 
-	remotecontrolobj->customCommand1_OFF[3]->execute();
-	remotecontrolobj->customCommand1_ON[3]->execute();
-
 	return 0;
 }
