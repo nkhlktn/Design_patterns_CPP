@@ -27,6 +27,12 @@ public:
 	{
 		cout<<"Nothing Assigned"<<endl;
 	}
+
+
+	virtual void undo()
+	{
+		cout<<"Nothing To Undo"<<endl;
+	}
 };
 
 #endif /* NOCOMMAND_H_ */

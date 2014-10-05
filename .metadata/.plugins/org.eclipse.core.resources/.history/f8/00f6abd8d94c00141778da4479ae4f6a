@@ -1,0 +1,23 @@
+/*
+ * GarageLight.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GARAGELIGHT_H_
+#define GARAGELIGHT_H_
+
+class GarageLight {
+public:
+	GarageLight()
+	{
+
+	}
+	~GarageLight()
+	{
+
+	}
+};
+
+#endif /* GARAGELIGHT_H_ */

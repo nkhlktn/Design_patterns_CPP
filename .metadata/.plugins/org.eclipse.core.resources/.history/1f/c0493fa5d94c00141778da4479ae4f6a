@@ -1,0 +1,18 @@
+/*
+ * GarageLight.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:GarageLight.h"
+
+GarageLight::GarageLight() {
+	// TODO Auto-generated constructor stub
+
+}
+
+GarageLight::~GarageLight() {
+	// TODO Auto-generated destructor stub
+}
+

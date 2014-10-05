@@ -22,6 +22,8 @@ public:
 			customCommand1_ON[counter] = obj;
 			customCommand1_OFF[counter] = obj;
 		}
+
+		lastCommand = obj;
 	}
 
 	~RemoteControl()
@@ -30,11 +32,30 @@ public:
 	}
 	Command* customCommand1_ON[numberOfCommands];
 	Command* customCommand1_OFF[numberOfCommands];
+	Command* lastCommand;
 
 	void setCommand(int slot, Command* on, Command* off)
 	{
 		customCommand1_ON[slot] = on;
 		customCommand1_OFF[slot] = off;
+	}
+
+	void onButtonPushed(int slot)
+	{
+		customCommand1_ON[slot]->execute();
+		lastCommand = customCommand1_ON[slot];
+	}
+
+	void offButtonPushed(int slot)
+	{
+		customCommand1_OFF[slot]->execute();
+		lastCommand = customCommand1_OFF[slot];
+	}
+
+	void undoButtonPushed()
+	{
+		cout<<"Undo function pressed: ";
+		lastCommand->undo();
 	}
 };
 

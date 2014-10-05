@@ -9,12 +9,15 @@
 #define GARAGELIGHTDIM_H_
 #include "Command.h"
 using namespace std;
+#include "GarageLight.h"
 
 class GarageLightDim: public Command {
+private:
+	GarageLight* garagelight;
 public:
-	GarageLightDim()
+	GarageLightDim(GarageLight* garagelightobj)
 	{
-
+		garagelight = garagelightobj;
 	}
 	~GarageLightDim()
 	{
@@ -22,7 +25,12 @@ public:
 	}
 	virtual void execute()
 	{
-		cout<<"Dim Garage Light"<<endl;
+		garagelight->garageLightDim();
+	}
+
+	virtual void undo()
+	{
+		garagelight->garageLightOn();
 	}
 };
 

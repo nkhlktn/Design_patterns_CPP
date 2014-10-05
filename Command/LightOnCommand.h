@@ -9,22 +9,32 @@
 #define LIGHTONCOMMAND_H_
 
 #include "Command.h"
+#include "Light.h"
 #include<iostream>
 using namespace std;
 
 class LightOnCommand: public Command {
+private:
+	Light* light;
 public:
-	LightOnCommand()
+	LightOnCommand(Light* lightObj)
 	{
-
+		light = lightObj;
 	}
+
 	~LightOnCommand()
 	{
 
 	}
+
 	virtual void execute()
 	{
-		cout<<"Lights ON"<<endl;
+		light->lighton();
+	}
+
+	virtual void undo()
+	{
+		light->lightoff();
 	}
 };
 

@@ -1,0 +1,17 @@
+/*
+ * Light.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef LIGHT_H_
+#define LIGHT_H_
+
+class Light {
+public:
+	Light();
+	~Light();
+};
+
+#endif /* LIGHT_H_ */

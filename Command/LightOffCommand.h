@@ -11,12 +11,15 @@
 #include "Command.h"
 #include<iostream>
 using namespace std;
+#include "Light.h"
 
 class LightOffCommand: public Command {
+private:
+	Light* light;
 public:
-	LightOffCommand()
+	LightOffCommand(Light* LightObj)
 	{
-
+		light = LightObj;
 	}
 	~LightOffCommand()
 	{
@@ -25,7 +28,12 @@ public:
 
 	virtual void execute()
 	{
-		cout<<"Lights off"<<endl;
+		light->lightoff();
+	}
+
+	virtual void undo()
+	{
+		light->lighton();
 	}
 };
 

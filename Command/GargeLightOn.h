@@ -10,12 +10,16 @@
 #include "Command.h"
 #include<iostream>
 using namespace std;
+#include "GarageLight.h"
 
 class GargeLightOn: public Command {
-public:
-	GargeLightOn()
-	{
+private:
+	GarageLight* garagelight;
 
+public:
+	GargeLightOn(GarageLight* garagelightObj)
+	{
+		garagelight = garagelightObj;
 	}
 	~GargeLightOn()
 	{
@@ -24,7 +28,12 @@ public:
 
 	virtual void execute()
 	{
-		cout<<"Garage Light On"<<endl;
+		garagelight->garageLightOn();
+	}
+
+	virtual void undo()
+	{
+		garagelight->garageLightDim();
 	}
 };
 
