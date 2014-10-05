@@ -1,2 +1,5 @@
-11:29:55 **** Clean-only build of configuration Debug for project SimpleFactory ****
-rm -rf main.d SimpleFactory.exe main.o 
+14:01:22 **** Incremental Build of configuration Debug for project SingletonPattern ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o SingletonPattern.exe main.o ChocolateBoiler.o 
+Info: Nothing to build for SingletonPattern

@@ -1,0 +1,16 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "ChocolateBoiler.h"
+
+int main()
+{
+	ChocolateBoiler * cb;
+	cb = ChocolateBoiler::getInstance();
+	cb->Boil();
+	return 0;
+}

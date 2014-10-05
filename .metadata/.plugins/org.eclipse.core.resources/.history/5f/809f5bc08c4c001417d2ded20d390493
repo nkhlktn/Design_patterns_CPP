@@ -1,0 +1,18 @@
+/*
+ * ChocolateBoiler.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:ChocolateBoiler.h"
+
+ChocolateBoiler::ChocolateBoiler() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ChocolateBoiler::~ChocolateBoiler() {
+	// TODO Auto-generated destructor stub
+}
+

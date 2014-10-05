@@ -1,0 +1,22 @@
+/*
+ * ChocolateBoiler.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+static ChocolateBoiler* getInstance()
+{
+	if(ChocolateBoiler::boilerInstance == NULL)
+	{
+		ChocolateBoiler::boilerInstance = new ChocolateBoiler();
+	}
+	else
+	{
+		cout<<"Returning old instance"<<endl;
+	}
+	return ChocolateBoiler::boilerInstance;
+}
+
+
+
