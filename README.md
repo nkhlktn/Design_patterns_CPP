@@ -9,3 +9,4 @@ Design Principles
 3) Favour composition over inheritance.
 4) Loosely coupled objects should be favoured.
 5) Classes should be closed for modification but should be open for extension.
+6) Depend upon abstractions but do not depend upon concrete classes (Dependency inversion principle).
