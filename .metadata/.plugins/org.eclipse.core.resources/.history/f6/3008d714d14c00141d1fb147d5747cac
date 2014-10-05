@@ -1,0 +1,18 @@
+/*
+ * LightOnCommand.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:LightOnCommand.h"
+
+LightOnCommand::LightOnCommand() {
+	// TODO Auto-generated constructor stub
+
+}
+
+LightOnCommand::~LightOnCommand() {
+	// TODO Auto-generated destructor stub
+}
+

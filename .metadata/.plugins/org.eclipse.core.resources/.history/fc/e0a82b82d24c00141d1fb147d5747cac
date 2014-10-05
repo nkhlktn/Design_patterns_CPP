@@ -1,0 +1,18 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "RemoteControl.h"
+#include "LightOffCommand.h"
+#include "LightOnCommand.h"
+
+int main()
+{
+	LightOffCommand offcommand;
+	LightOnCommand oncommand;
+	RemoteControl* remotecontrolobj = new RemoteControl()
+	return 0;
+}

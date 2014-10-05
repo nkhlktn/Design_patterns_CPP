@@ -1,5 +1,5 @@
-14:01:22 **** Incremental Build of configuration Debug for project SingletonPattern ****
+22:00:27 **** Rebuild of configuration Debug for project Command ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o SingletonPattern.exe main.o ChocolateBoiler.o 
-Info: Nothing to build for SingletonPattern
+g++ -o Command.exe main.o 
+Info: Nothing to build for Command

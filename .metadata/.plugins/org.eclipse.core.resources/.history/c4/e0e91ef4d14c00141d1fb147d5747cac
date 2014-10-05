@@ -1,0 +1,26 @@
+/*
+ * RemoteControl.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef REMOTECONTROL_H_
+#define REMOTECONTROL_H_
+#include "Command.h"
+
+class RemoteControl {
+public:
+	RemoteControl()
+	{
+
+	}
+	~RemoteControl()
+	{
+
+	}
+
+	Command* customCommand1;
+};
+
+#endif /* REMOTECONTROL_H_ */

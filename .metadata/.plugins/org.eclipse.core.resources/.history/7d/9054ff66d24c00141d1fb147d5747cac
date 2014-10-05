@@ -1,0 +1,18 @@
+/*
+ * LightOffCommand.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:LightOffCommand.h"
+
+LightOffCommand::LightOffCommand() {
+	// TODO Auto-generated constructor stub
+
+}
+
+LightOffCommand::~LightOffCommand() {
+	// TODO Auto-generated destructor stub
+}
+

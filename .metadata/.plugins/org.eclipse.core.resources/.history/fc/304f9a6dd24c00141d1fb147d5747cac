@@ -1,0 +1,18 @@
+/*
+ * RemoteControl.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:RemoteControl.h"
+
+RemoteControl::RemoteControl() {
+	// TODO Auto-generated constructor stub
+
+}
+
+RemoteControl::~RemoteControl() {
+	// TODO Auto-generated destructor stub
+}
+

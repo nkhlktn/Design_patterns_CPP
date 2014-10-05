@@ -5,3 +5,7 @@
 1412503451046	Delete resource 'SimpleFactory/CheesePizza.cpp'
 1412504128924	Delete resource 'SimpleFactory/MeatPizza.cpp'
 1412512813448	Delete resource 'SingletonPattern/ChocolateBoiler.cpp'
+1412542077604	Delete resource 'Command/Command.cpp'
+1412542160954	Delete resource 'Command/LightOnCommand.cpp'
+1412542728291	Delete resource 'Command/LightOffCommand.cpp'
+1412542739370	Delete resource 'Command/RemoteControl.cpp'

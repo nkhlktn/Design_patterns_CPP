@@ -1,0 +1,19 @@
+/*
+ * LightOnCommand.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef LIGHTONCOMMAND_H_
+#define LIGHTONCOMMAND_H_
+
+#include "C:Command.h"
+
+class LightOnCommand: public Command {
+public:
+	LightOnCommand();
+	~LightOnCommand();
+};
+
+#endif /* LIGHTONCOMMAND_H_ */
