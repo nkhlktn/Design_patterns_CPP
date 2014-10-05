@@ -1,0 +1,17 @@
+/*
+ * PizzaStore.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef PIZZASTORE_H_
+#define PIZZASTORE_H_
+
+class PizzaStore {
+public:
+	PizzaStore();
+	~PizzaStore();
+};
+
+#endif /* PIZZASTORE_H_ */

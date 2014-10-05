@@ -1,0 +1,19 @@
+/*
+ * CheesePizza.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef CHEESEPIZZA_H_
+#define CHEESEPIZZA_H_
+
+#include "Pizza.h"
+
+class CheesePizza: public Pizza {
+public:
+	CheesePizza();
+	~CheesePizza();
+};
+
+#endif /* CHEESEPIZZA_H_ */

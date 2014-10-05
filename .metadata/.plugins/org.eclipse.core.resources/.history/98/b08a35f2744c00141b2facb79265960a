@@ -1,0 +1,18 @@
+/*
+ * PizzaStore.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:PizzaStore.h"
+
+PizzaStore::PizzaStore() {
+	// TODO Auto-generated constructor stub
+
+}
+
+PizzaStore::~PizzaStore() {
+	// TODO Auto-generated destructor stub
+}
+

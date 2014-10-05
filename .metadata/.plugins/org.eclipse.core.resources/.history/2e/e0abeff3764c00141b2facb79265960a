@@ -1,0 +1,18 @@
+/*
+ * CheesePizza.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:CheesePizza.h"
+
+CheesePizza::CheesePizza() {
+	// TODO Auto-generated constructor stub
+
+}
+
+CheesePizza::~CheesePizza() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,46 @@
+/*
+ * MeatPizza.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MEATPIZZA_H_
+#define MEATPIZZA_H_
+#include <iostream>
+#include "Pizza.h"
+using namespace std;
+
+class MeatPizza:public Pizza {
+public:
+	MeatPizza()
+	{
+
+	}
+	~MeatPizza()
+	{
+
+	}
+
+	virtual void prepare()
+		{
+			cout<<"Preparing Cheese pizza"<<endl;
+		}
+
+		virtual void bake()
+		{
+			cout<<"Baking Cheese pizza"<<endl;;
+		}
+
+		virtual void cut()
+		{
+			cout<<"Cutting Cheese pizza"<<endl;
+		}
+
+		virtual void box()
+		{
+			cout<<"Packing Cheese pizza"<<endl;
+		}
+};
+
+#endif /* MEATPIZZA_H_ */

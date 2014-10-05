@@ -1,0 +1,18 @@
+/*
+ * SimplePizzaFactory.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:SimplePizzaFactory.h"
+
+SimplePizzaFactory::SimplePizzaFactory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+SimplePizzaFactory::~SimplePizzaFactory() {
+	// TODO Auto-generated destructor stub
+}
+

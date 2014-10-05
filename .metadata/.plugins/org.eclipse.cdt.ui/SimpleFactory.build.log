@@ -1,0 +1,5 @@
+11:29:55 **** Clean-only build of configuration Debug for project SimpleFactory ****
+rm -rf main.d SimpleFactory.exe main.o 
+
+11:29:55 Build Finished (took 283ms)
+
