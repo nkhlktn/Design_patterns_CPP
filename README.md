@@ -21,3 +21,9 @@ OO Patterns
 1)Strategy
 
 2)Observer
+
+3)Decorator
+
+4)Simple factory
+
+5)Abstract factory
