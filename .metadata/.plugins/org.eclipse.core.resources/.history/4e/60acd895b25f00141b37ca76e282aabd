@@ -1,0 +1,19 @@
+/*
+ * NYPizzaIngredientFactory.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef NYPIZZAINGREDIENTFACTORY_H_
+#define NYPIZZAINGREDIENTFACTORY_H_
+
+#include "C:PizzaIngredientFactory.h"
+
+class NYPizzaIngredientFactory: public PizzaIngredientFactory {
+public:
+	NYPizzaIngredientFactory();
+	~NYPizzaIngredientFactory();
+};
+
+#endif /* NYPIZZAINGREDIENTFACTORY_H_ */

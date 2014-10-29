@@ -1,0 +1,32 @@
+/*
+ * TurkeyAdapter.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef TURKEYADAPTER_H_
+#define TURKEYADAPTER_H_
+
+#include "Turkey.h"
+#include "Duck.h"
+
+class TurkeyAdapter: public Turkey {
+public:
+	TurkeyAdapter() {}
+	~TurkeyAdapter() {}
+
+	virtual void gobble()
+	{
+
+	}
+
+	virtual void shortFly()
+	{
+
+	}
+private:
+	Duck* duckObj;
+};
+
+#endif /* TURKEYADAPTER_H_ */

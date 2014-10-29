@@ -1,0 +1,18 @@
+/*
+ * Veggies.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Veggies.h"
+
+Veggies::Veggies() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Veggies::~Veggies() {
+	// TODO Auto-generated destructor stub
+}
+

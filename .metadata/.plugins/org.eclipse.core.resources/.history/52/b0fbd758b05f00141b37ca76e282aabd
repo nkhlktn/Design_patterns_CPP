@@ -1,0 +1,20 @@
+/*
+ * Dough.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DOUGH_H_
+#define DOUGH_H_
+#include<string>
+using namespace std;
+
+class Dough {
+public:
+	String DoughType;
+	Dough(){}
+	~Dough(){}
+};
+
+#endif /* DOUGH_H_ */

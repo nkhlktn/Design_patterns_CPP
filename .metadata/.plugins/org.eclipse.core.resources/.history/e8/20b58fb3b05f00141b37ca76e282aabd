@@ -1,0 +1,17 @@
+/*
+ * Veggies.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef VEGGIES_H_
+#define VEGGIES_H_
+
+class Veggies {
+public:
+	Veggies();
+	~Veggies();
+};
+
+#endif /* VEGGIES_H_ */

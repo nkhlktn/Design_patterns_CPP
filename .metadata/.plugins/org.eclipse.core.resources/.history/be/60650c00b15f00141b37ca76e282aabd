@@ -1,0 +1,18 @@
+/*
+ * Clam.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Clam.h"
+
+Clam::Clam() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Clam::~Clam() {
+	// TODO Auto-generated destructor stub
+}
+

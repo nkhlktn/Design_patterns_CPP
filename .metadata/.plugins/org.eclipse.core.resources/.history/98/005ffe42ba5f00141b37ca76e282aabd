@@ -1,0 +1,18 @@
+/*
+ * TurkeyAdapter.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:TurkeyAdapter.h"
+
+TurkeyAdapter::TurkeyAdapter() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TurkeyAdapter::~TurkeyAdapter() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,17 @@
+/*
+ * Duck.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DUCK_H_
+#define DUCK_H_
+
+class Duck {
+public:
+	Duck();
+	~Duck();
+};
+
+#endif /* DUCK_H_ */

@@ -1,0 +1,18 @@
+/*
+ * PizzaIngredientFactory.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:PizzaIngredientFactory.h"
+
+PizzaIngredientFactory::PizzaIngredientFactory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+PizzaIngredientFactory::~PizzaIngredientFactory() {
+	// TODO Auto-generated destructor stub
+}
+

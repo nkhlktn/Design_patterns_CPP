@@ -1,0 +1,19 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+
+#include "TurkeyAdapter.h"
+#include "MallardDuck.h"
+#include "Turkey.h"
+
+int main()
+{
+	MallardDuck* mallardObj = new MallardDuck();
+	Turkey* turkeyObj = new TurkeyAdapter(MallardDuck);
+
+	return 0;
+}

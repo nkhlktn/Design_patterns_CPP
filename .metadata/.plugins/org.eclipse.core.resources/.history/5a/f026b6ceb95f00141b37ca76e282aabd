@@ -1,0 +1,18 @@
+/*
+ * Turkey.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Turkey.h"
+
+Turkey::Turkey() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Turkey::~Turkey() {
+	// TODO Auto-generated destructor stub
+}
+

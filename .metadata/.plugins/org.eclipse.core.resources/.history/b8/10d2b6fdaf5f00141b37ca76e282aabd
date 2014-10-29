@@ -1,0 +1,17 @@
+/*
+ * Dough.h
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DOUGH_H_
+#define DOUGH_H_
+
+class Dough {
+public:
+	Dough(){}
+	~Dough(){}
+};
+
+#endif /* DOUGH_H_ */

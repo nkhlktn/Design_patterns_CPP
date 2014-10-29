@@ -1,0 +1,18 @@
+/*
+ * Pepperoni.cpp
+ *
+ *  Created on: Oct 29, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Pepperoni.h"
+
+Pepperoni::Pepperoni() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Pepperoni::~Pepperoni() {
+	// TODO Auto-generated destructor stub
+}
+
