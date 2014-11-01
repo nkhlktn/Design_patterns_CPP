@@ -1,0 +1,18 @@
+/*
+ * CaffeineBeverage.cpp
+ *
+ *  Created on: Nov 1, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:CaffeineBeverage.h"
+
+CaffeineBeverage::CaffeineBeverage() {
+	// TODO Auto-generated constructor stub
+
+}
+
+CaffeineBeverage::~CaffeineBeverage() {
+	// TODO Auto-generated destructor stub
+}
+

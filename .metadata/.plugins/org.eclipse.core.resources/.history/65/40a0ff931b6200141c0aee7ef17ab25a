@@ -1,0 +1,17 @@
+/*
+ * CaffeineBeverage.h
+ *
+ *  Created on: Nov 1, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef CAFFEINEBEVERAGE_H_
+#define CAFFEINEBEVERAGE_H_
+
+class CaffeineBeverage {
+public:
+	CaffeineBeverage();
+	~CaffeineBeverage();
+};
+
+#endif /* CAFFEINEBEVERAGE_H_ */

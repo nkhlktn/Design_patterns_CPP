@@ -1,0 +1,18 @@
+/*
+ * Tea.cpp
+ *
+ *  Created on: Nov 1, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Tea.h"
+
+Tea::Tea() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Tea::~Tea() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,19 @@
+/*
+ * Tea.h
+ *
+ *  Created on: Nov 1, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef TEA_H_
+#define TEA_H_
+
+#include "C:CaffeineBeverage.h"
+
+class Tea: public CaffeineBeverage {
+public:
+	Tea();
+	~Tea();
+};
+
+#endif /* TEA_H_ */

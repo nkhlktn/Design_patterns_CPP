@@ -1,0 +1,18 @@
+/*
+ * Coffee.cpp
+ *
+ *  Created on: Nov 1, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Coffee.h"
+
+Coffee::Coffee() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Coffee::~Coffee() {
+	// TODO Auto-generated destructor stub
+}
+
