@@ -16,6 +16,8 @@ Design Principles
 
 6) Depend upon abstractions but do not depend upon concrete classes (Dependency inversion principle).
 
+7) Law of demeter or principle of least knowledge or friends.
+
 OO Patterns
 -----------
 1)Strategy
@@ -27,3 +29,12 @@ OO Patterns
 4)Simple factory
 
 5)Abstract factory
+
+6)Singleton
+
+7)Command
+
+8)Adapter
+
+9)Facade
+
