@@ -1,0 +1,24 @@
+/*
+ * DinerMenu.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DINERMENU_H_
+#define DINERMENU_H_
+
+#include "Menu.h"
+#include "MenuItems.h"
+
+class DinerMenu: public Menu {
+public:
+	DinerMenu(){}
+	~DinerMenu(){}
+private:
+	int numberOfItems;
+	const int MAX_ITEMS = 4;
+	MenuItems menuItems[MAX_ITEMS];
+};
+
+#endif /* DINERMENU_H_ */

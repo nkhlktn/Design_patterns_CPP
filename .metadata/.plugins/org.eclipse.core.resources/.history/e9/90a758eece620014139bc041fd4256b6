@@ -1,0 +1,17 @@
+/*
+ * MenuItems.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENUITEMS_H_
+#define MENUITEMS_H_
+
+class MenuItems {
+public:
+	MenuItems();
+	~MenuItems();
+};
+
+#endif /* MENUITEMS_H_ */

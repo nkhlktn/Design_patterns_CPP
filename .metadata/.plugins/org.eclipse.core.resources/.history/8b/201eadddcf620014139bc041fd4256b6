@@ -1,0 +1,18 @@
+/*
+ * DinerMenu.cpp
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:DinerMenu.h"
+
+DinerMenu::DinerMenu() {
+	// TODO Auto-generated constructor stub
+
+}
+
+DinerMenu::~DinerMenu() {
+	// TODO Auto-generated destructor stub
+}
+
