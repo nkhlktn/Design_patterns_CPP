@@ -38,5 +38,5 @@ OO Patterns
 
 9)Facade
 
-10) Iterator
+10) Iterator (not implemented as STL is the best resource for aggregates and iterators)
 
