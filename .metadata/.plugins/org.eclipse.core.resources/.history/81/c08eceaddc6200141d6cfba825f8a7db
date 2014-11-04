@@ -1,0 +1,18 @@
+/*
+ * DinerMenuIterator.cpp
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:DinerMenuIterator.h"
+
+DinerMenuIterator::DinerMenuIterator() {
+	// TODO Auto-generated constructor stub
+
+}
+
+DinerMenuIterator::~DinerMenuIterator() {
+	// TODO Auto-generated destructor stub
+}
+

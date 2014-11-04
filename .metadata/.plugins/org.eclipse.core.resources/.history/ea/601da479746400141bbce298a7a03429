@@ -1,0 +1,48 @@
+/*
+ * DinerMenuIterator.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DINERMENUITERATOR_H_
+#define DINERMENUITERATOR_H_
+
+#include "MyIterator.h"
+#include "MenuItems.h"
+#include "DinerMenu.h"
+
+class DinerMenuIterator: public MyMenuIterator {
+public:
+	DinerMenuIterator(DinerMenu** menuObj, int size){
+		menu = menuObj;
+		position = 0;
+	}
+	~DinerMenuIterator(){}
+	virtual bool hasNext()
+	{
+		bool present = true;
+		if(menu->getLength() < position )
+		{
+			present = false;
+		}
+		return present;
+	}
+	virtual MenuItems* next()
+	{
+		MenuItems* menuitemobj = NULL;
+		if( menu->getLength() < position )
+		{
+			position++;
+			menuitemobj = *menu[position];
+		}
+		return menuitemobj;
+	}
+
+private:
+	DinerMenu** menu;
+	int position;
+	int size;
+};
+
+#endif /* DINERMENUITERATOR_H_ */

@@ -1,5 +1,9 @@
-23:33:30 **** Rebuild of configuration Debug for project TemplateMethod ****
+23:06:41 **** Incremental Build of configuration Debug for project Iterator ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o TemplateMethod.exe main.o 
-Info: Nothing to build for TemplateMethod
+In file included from ..\main.cpp:9:0:
+..\DinerMenu.h:19:24: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  const int MAX_ITEMS = 4;
+                        ^
+g++ -o Iterator.exe main.o 
+Info: Nothing to build for Iterator

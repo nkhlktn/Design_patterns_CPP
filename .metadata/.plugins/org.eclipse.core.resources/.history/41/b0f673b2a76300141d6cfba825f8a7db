@@ -1,0 +1,27 @@
+/*
+ * DinerMenuIterator.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DINERMENUITERATOR_H_
+#define DINERMENUITERATOR_H_
+
+#include "MyIterator.h"
+
+class DinerMenuIterator: public MyMenuIterator {
+public:
+	DinerMenuIterator(){}
+	~DinerMenuIterator(){}
+	virtual bool hasNext()
+	{
+
+	}
+	virtual MenuItems next()
+	{
+
+	}
+};
+
+#endif /* DINERMENUITERATOR_H_ */

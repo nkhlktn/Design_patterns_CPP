@@ -1,0 +1,19 @@
+/*
+ * DinerMenuIterator.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef DINERMENUITERATOR_H_
+#define DINERMENUITERATOR_H_
+
+#include "C:MyIterator.h"
+
+class DinerMenuIterator: public MyMenuIterator {
+public:
+	DinerMenuIterator();
+	~DinerMenuIterator();
+};
+
+#endif /* DINERMENUITERATOR_H_ */

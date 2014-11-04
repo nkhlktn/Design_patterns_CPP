@@ -1,0 +1,18 @@
+/*
+ * MyIterator.cpp
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:MyIterator.h"
+
+MyIterator::MyIterator() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MyIterator::~MyIterator() {
+	// TODO Auto-generated destructor stub
+}
+
