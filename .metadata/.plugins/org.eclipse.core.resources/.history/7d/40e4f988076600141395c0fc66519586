@@ -1,0 +1,18 @@
+/*
+ * MenuItem.cpp
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:MenuItem.h"
+
+MenuItem::MenuItem() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MenuItem::~MenuItem() {
+	// TODO Auto-generated destructor stub
+}
+

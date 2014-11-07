@@ -1,0 +1,22 @@
+/*
+ * MenuComponent.h
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENUCOMPONENT_H_
+#define MENUCOMPONENT_H_
+
+class MenuComponent {
+public:
+	MenuComponent(){}
+	~MenuComponent(){}
+
+	void add(MenuComponent menuObj)
+	{
+		throw 20;
+	}
+};
+
+#endif /* MENUCOMPONENT_H_ */

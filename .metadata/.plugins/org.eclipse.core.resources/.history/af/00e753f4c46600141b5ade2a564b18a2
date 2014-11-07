@@ -1,0 +1,18 @@
+/*
+ * Waitress.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:Waitress.h"
+
+Waitress::Waitress() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Waitress::~Waitress() {
+	// TODO Auto-generated destructor stub
+}
+

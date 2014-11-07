@@ -1,0 +1,33 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "Menu.h"
+
+int main()
+{
+	MenuComponent* pancakeHouseMenu =
+			new Menu("PanCakeHouseMenu","Breakfast");
+
+	MenuComponent* dinerMenu =
+			new Menu("Diner Menu", "Lunch");
+
+	MenuComponent* cafeMenu =
+			new Menu("Cafe Menu", "Dinner");
+
+	MenuComponent* dessertMenu =
+			new Menu("Dessert Menu", "Dessert Of Course");
+
+	MenuComponent* allMenus =
+			new Menu("All Menus", "All menus combined");
+
+	allMenus->add(pancakeHouseMenu);
+	allMenus->add(dinerMenu);
+	allMenus->add(cafeMenu);
+	allMenus->add(dessertMenu);
+
+	return 0;
+}

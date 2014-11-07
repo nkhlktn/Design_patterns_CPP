@@ -1,0 +1,56 @@
+/*
+ * MenuItem.h
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENUITEM_H_
+#define MENUITEM_H_
+
+#include "MenuComponent.h"
+
+class MenuItem: public MenuComponent {
+public:
+	MenuItem(string nameobj, string descObj,
+			 bool vegetarianobj, double price)
+	{
+		this->name = name;
+		this->description = descObj;
+		this->vegetarian = vegetarianobj;
+		this->price = price;
+	}
+	~MenuItem(){}
+
+	string getName()
+	{
+		return name;
+	}
+
+	string getDescription()
+	{
+		return description;
+	}
+
+		string getPrice()
+		{
+			throw 20;
+		}
+
+		bool isVegetarian()
+		{
+			throw 20;
+		}
+
+		void print()
+		{
+			throw 20;
+		}
+private:
+	string name;
+	string description;
+	bool vegetarian;
+	double price;
+};
+
+#endif /* MENUITEM_H_ */

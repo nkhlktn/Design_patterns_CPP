@@ -1,0 +1,18 @@
+/*
+ * MenuFactory.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:MenuFactory.h"
+
+MenuFactory::MenuFactory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MenuFactory::~MenuFactory() {
+	// TODO Auto-generated destructor stub
+}
+

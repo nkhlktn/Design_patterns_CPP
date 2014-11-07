@@ -1,0 +1,56 @@
+/*
+ * MenuComponent.h
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENUCOMPONENT_H_
+#define MENUCOMPONENT_H_
+
+#include<string>
+using namespace std;
+class MenuComponent {
+public:
+	MenuComponent(){}
+	~MenuComponent(){}
+
+	virtual void add(MenuComponent* menuObj) = 0;
+
+	void remove(MenuComponent* menuObj)
+	{
+		throw 20;
+	}
+
+	MenuComponent* getChild(int counter)
+	{
+		throw 20;
+	}
+
+	string getName()
+	{
+		throw 20;
+	}
+
+	string getDescription()
+	{
+		throw 20;
+	}
+
+	string getPrice()
+	{
+		throw 20;
+	}
+
+	bool isVegetarian()
+	{
+		throw 20;
+	}
+
+	void print()
+	{
+		throw 20;
+	}
+};
+
+#endif /* MENUCOMPONENT_H_ */

@@ -1,0 +1,19 @@
+/*
+ * MenuFactory.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENUFACTORY_H_
+#define MENUFACTORY_H_
+
+class MenuFactory {
+public:
+	MenuFactory(){}
+	~MenuFactory(){}
+	
+	void create
+};
+
+#endif /* MENUFACTORY_H_ */

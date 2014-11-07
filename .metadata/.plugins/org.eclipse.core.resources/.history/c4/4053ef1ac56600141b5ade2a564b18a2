@@ -1,0 +1,17 @@
+/*
+ * Waitress.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef WAITRESS_H_
+#define WAITRESS_H_
+
+class Waitress {
+public:
+	Waitress();
+	~Waitress();
+};
+
+#endif /* WAITRESS_H_ */

@@ -1,0 +1,18 @@
+/*
+ * MenuComponent.cpp
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:MenuComponent.h"
+
+MenuComponent::MenuComponent() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MenuComponent::~MenuComponent() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,15 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "Menu.h"
+
+int main()
+{
+	MenuComponent pancakeHouseMenu =
+			new Menu("PanCakeHouseMenu","Breakfast");
+	return 0;
+}

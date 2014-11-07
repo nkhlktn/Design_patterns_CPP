@@ -1,9 +1,17 @@
-23:06:41 **** Incremental Build of configuration Debug for project Iterator ****
+22:33:04 **** Incremental Build of configuration Debug for project Composite ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-In file included from ..\main.cpp:9:0:
-..\DinerMenu.h:19:24: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
-  const int MAX_ITEMS = 4;
-                        ^
-g++ -o Iterator.exe main.o 
-Info: Nothing to build for Iterator
+g++ -o Composite.exe main.o 
+Info: Nothing to build for Composite
+22:33:23 **** Incremental Build of configuration Debug for project Composite ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Composite.exe main.o 
+22:33:44 **** Incremental Build of configuration Debug for project Composite ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Composite.exe main.o 
+Info: Nothing to build for Composite
+Info: Nothing to build for Composite
+Info: Nothing to build for Composite
+Info: Nothing to build for Composite

@@ -1,0 +1,45 @@
+/*
+ * Menu.h
+ *
+ *  Created on: Nov 6, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef MENU_H_
+#define MENU_H_
+
+#include "MenuComponent.h"
+#include<vector>
+using namespace std;
+class Menu: public MenuComponent {
+public:
+	Menu(){}
+	~Menu(){}
+
+	Menu(string name, string description)
+	{
+		this->name = name;
+		this->description = description;
+	}
+
+	void add(MenuComponent menuObj)
+	{
+		menucomponentslist.push_back(menuObj);
+	}
+
+	void remove(MenuComponent menuObj)
+	{
+		throw 20;
+	}
+
+	MenuComponent getChild(int counter)
+	{
+		throw 20;
+	}
+private:
+	vector <MenuComponent*> menucomponentslist;
+	string name;
+	string description;
+};
+
+#endif /* MENU_H_ */

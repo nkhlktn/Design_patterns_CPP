@@ -1,0 +1,19 @@
+/*
+ * Waitress.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef WAITRESS_H_
+#define WAITRESS_H_
+
+#include "MenuComponent.h"
+class Waitress {
+public:
+	Waitress(MenuComponent) {}
+	~Waitress() {}
+
+};
+
+#endif /* WAITRESS_H_ */
