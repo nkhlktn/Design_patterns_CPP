@@ -40,3 +40,6 @@ OO Patterns
 
 10) Iterator (not implemented as STL is the best resource for aggregates and iterators)
 
+11) Composite
+
+12) State
