@@ -1,0 +1,51 @@
+/*
+ * SoldOut.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef SOLDOUT_H_
+#define SOLDOUT_H_
+
+#include "GumBallState.h"
+
+class SoldOut: public GumBallState {
+public:
+	SoldOut(GumBallMachine* gumball)
+	{
+		this->gumball = gumball;
+	}
+	~SoldOut(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+
+	virtual void ejectCoin()
+	{
+
+	}
+
+	virtual void dispense()
+	{
+		cout<<"GumBall dispensed"<<endl;
+		gumball->setState(gumball->getNoQuarterState());
+	}
+
+	virtual void turnCrank()
+	{
+
+	}
+
+	virtual void addGumBall()
+	{
+
+	}
+
+private:
+	GumBallMachine* gumball;
+};
+
+#endif /* SOLDOUT_H_ */

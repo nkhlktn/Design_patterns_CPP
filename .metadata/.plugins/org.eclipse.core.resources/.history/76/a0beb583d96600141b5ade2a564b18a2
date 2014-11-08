@@ -1,0 +1,19 @@
+/*
+ * SoldOut.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef SOLDOUT_H_
+#define SOLDOUT_H_
+
+#include "GumBallState.h"
+
+class SoldOut: public GumBallState {
+public:
+	SoldOut();
+	~SoldOut();
+};
+
+#endif /* SOLDOUT_H_ */

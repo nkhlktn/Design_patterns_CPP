@@ -1,0 +1,148 @@
+/*
+ * GumBallMachine.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLMACHINE_H_
+#define GUMBALLMACHINE_H_
+
+#include "GumBallState.h"
+#include<iostream>
+using namespace std;
+
+class GumBallMachine;
+
+class NoQuarter: public GumBallState {
+public:
+	NoQuarter(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~NoQuarter(){}
+
+	virtual void insertCoin()
+	{
+		cout<<"Entered a coin"<<endl;
+		gumballObj->setState( gumballObj->getQuarterState() );
+	}
+	virtual void ejectCoin()
+	{
+		cout<<"No Coin"<<endl;
+	}
+	virtual void turnCrank()
+	{
+		cout<<"Enter Coin"<<endl;
+	}
+
+private:
+	GumBallMachine* gumballObj;
+};
+
+class HasQuarter: public GumBallState {
+public:
+	HasQuarter(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~HasQuarter(){}
+
+	virtual void insertCoin()
+	{
+		cout<<"Coin already present";
+	}
+	virtual void ejectCoin() {  }
+	virtual void turnCrank() {  }
+
+private:
+	GumBallMachine* gumballObj;
+};
+
+class Dispense: public GumBallState {
+public:
+	Dispense(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~Dispense(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+	virtual void ejectCoin() {  }
+	virtual void turnCrank() {  }
+
+private:
+	GumBallMachine* gumballObj;
+};
+
+class SoldOut: public GumBallState {
+public:
+	SoldOut(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~SoldOut(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+	virtual void ejectCoin() {  }
+	virtual void turnCrank() {  }
+
+private:
+	GumBallMachine* gumballObj;
+};
+
+class GumBallMachine {
+public:
+	GumBallMachine()
+	{
+		noQuarterState = new NoQuarter(this);
+		hasQuarterState = new HasQuarter(this);
+		dispense = new Dispense(this);
+		soldOut = new SoldOut(this);
+
+		state = noQuarterState;
+	}
+	~GumBallMachine() {}
+
+	GumBallState* getnoQuarterState()
+	{
+		return noQuarterState;
+	}
+
+	GumBallState* getQuarterState()
+	{
+		return hasQuarterState;
+	}
+
+	GumBallState* getdispenseState()
+	{
+		return dispense;
+	}
+
+	GumBallState* getsoldOutState()
+	{
+		return soldOut;
+	}
+
+	void setState(GumBallState* state)
+	{
+		this->state = state;
+	}
+
+private:
+	GumBallState* noQuarterState;
+	GumBallState* hasQuarterState;
+	GumBallState* dispense;
+	GumBallState* soldOut;
+
+	GumBallState* state;
+};
+
+
+#endif /* GUMBALLMACHINE_H_ */

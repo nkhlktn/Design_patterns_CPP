@@ -1,0 +1,17 @@
+/*
+ * GumBallState.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLSTATE_H_
+#define GUMBALLSTATE_H_
+
+class GumBallState {
+public:
+	GumBallState();
+	~GumBallState();
+};
+
+#endif /* GUMBALLSTATE_H_ */

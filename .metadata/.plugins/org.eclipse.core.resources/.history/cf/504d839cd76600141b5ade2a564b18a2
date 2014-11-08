@@ -1,0 +1,18 @@
+/*
+ * HasQuarter.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:HasQuarter.h"
+
+HasQuarter::HasQuarter() {
+	// TODO Auto-generated constructor stub
+
+}
+
+HasQuarter::~HasQuarter() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,76 @@
+/*
+ * GumBallMachine.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLMACHINE_H_
+#define GUMBALLMACHINE_H_
+
+#include "GumBallState.h"
+#include "HasQuarter.h"
+#include "NoQuarter.h"
+#include "SaleMade.h"
+#include "SoldOut.h"
+
+class GumBallMachine {
+public:
+
+	~GumBallMachine() {}
+
+	static GumBallMachine* getInst()
+	{
+		if(state == NULL)
+		{
+			gumballMachine = new GumBallMachine();
+		}
+		return gumballMachine;
+	}
+
+	void setState(GumBallState* stateobj)
+	{
+		state = stateobj;
+	}
+
+	GumBallState* getNoQuarterState()
+	{
+		return NoQuarterState;
+	}
+
+	GumBallState* getHasQuarterState()
+	{
+		return HasQuarterState;
+	}
+
+	GumBallState* getSaleMadeState()
+	{
+		return SaleMadeState;
+	}
+
+	GumBallState* getSoldOutState()
+	{
+		return SoldOutState;
+	}
+
+private:
+	GumBallState* NoQuarterState;
+	GumBallState* HasQuarterState;
+	GumBallState* SaleMadeState;
+	GumBallState* SoldOutState;
+
+	GumBallState* state;
+
+	static GumBallMachine gumballMachine;
+
+	GumBallMachine() {
+			HasQuarterState = new HasQuarter(gumballMachine);
+			NoQuarterState = new NoQuarter(gumballMachine);
+			SaleMadeState = new SaleMade(gumballMachine);
+			SoldOutState = new SoldOut()gumballMachine;
+
+			state = NoQuarterState;
+		}
+};
+
+#endif /* GUMBALLMACHINE_H_ */

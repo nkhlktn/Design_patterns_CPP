@@ -1,0 +1,49 @@
+/*
+ * NoQuarter.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef NOQUARTER_H_
+#define NOQUARTER_H_
+
+#include "GumBallState.h"
+#include "HasQuarter.h"
+
+class NoQuarter: public GumBallState {
+public:
+	NoQuarter()
+	{
+
+	}
+	~NoQuarter(){}
+
+	void insertCoin()
+	{
+
+	}
+
+	void ejectCoin()
+	{
+
+	}
+
+	void dispense()
+	{
+
+	}
+
+	void turnCrank()
+	{
+
+	}
+
+	void addGumBall()
+	{
+
+	}
+
+};
+
+#endif /* NOQUARTER_H_ */

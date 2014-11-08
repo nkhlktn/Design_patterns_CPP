@@ -1,0 +1,18 @@
+/*
+ * SoldOut.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:SoldOut.h"
+
+SoldOut::SoldOut() {
+	// TODO Auto-generated constructor stub
+
+}
+
+SoldOut::~SoldOut() {
+	// TODO Auto-generated destructor stub
+}
+

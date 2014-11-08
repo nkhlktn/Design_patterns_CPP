@@ -1,0 +1,30 @@
+/*
+ * GumBallMachine.cpp
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#include "GumBallMachine.h"
+
+NoQuarter::NoQuarter(GumBallMachine* gumball)
+{
+	gumballObj = gumball;
+}
+
+NoQuarter::~NoQuarter(){}
+
+virtual void NoQuarter::insertCoin()
+{
+	cout<<"Entered a coin"<<endl;
+	gumballObj->setState( gumballObj->getQuarterState() );
+}
+
+virtual void ejectCoin()
+{
+	cout<<"No Coin"<<endl;
+}
+	virtual void turnCrank()
+	{
+		cout<<"Enter Coin"<<endl;
+	}

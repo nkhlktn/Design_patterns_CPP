@@ -1,0 +1,18 @@
+/*
+ * NoQuarter.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:NoQuarter.h"
+
+NoQuarter::NoQuarter() {
+	// TODO Auto-generated constructor stub
+
+}
+
+NoQuarter::~NoQuarter() {
+	// TODO Auto-generated destructor stub
+}
+

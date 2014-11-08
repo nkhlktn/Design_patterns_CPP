@@ -1,0 +1,19 @@
+/*
+ * StateFactory.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef STATEFACTORY_H_
+#define STATEFACTORY_H_
+
+#include "NoQuarter.h"
+
+class StateFactory {
+public:
+	StateFactory(GumBallMachine);
+	~StateFactory();
+};
+
+#endif /* STATEFACTORY_H_ */

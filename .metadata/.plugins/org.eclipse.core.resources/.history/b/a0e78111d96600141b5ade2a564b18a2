@@ -1,0 +1,18 @@
+/*
+ * SaleMade.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:SaleMade.h"
+
+SaleMade::SaleMade() {
+	// TODO Auto-generated constructor stub
+
+}
+
+SaleMade::~SaleMade() {
+	// TODO Auto-generated destructor stub
+}
+

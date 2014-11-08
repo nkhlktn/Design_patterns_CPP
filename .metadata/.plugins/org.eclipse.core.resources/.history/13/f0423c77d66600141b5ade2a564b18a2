@@ -1,0 +1,18 @@
+/*
+ * GumBallState.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:GumBallState.h"
+
+GumBallState::GumBallState() {
+	// TODO Auto-generated constructor stub
+
+}
+
+GumBallState::~GumBallState() {
+	// TODO Auto-generated destructor stub
+}
+

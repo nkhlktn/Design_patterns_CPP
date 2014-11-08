@@ -1,0 +1,75 @@
+/*
+ * GumBallMachine.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLMACHINE_H_
+#define GUMBALLMACHINE_H_
+
+#include "GumBallState.h"
+
+class GumBallMachine;
+
+class NoQuarter: public GumBallState {
+public:
+	NoQuarter(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~NoQuarter(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+	virtual void ejectCoin() {  }
+	virtual void turnCrank() {  }
+
+private:
+	GumBallMachine* gumballObj;
+};
+
+
+class GumBallMachine {
+public:
+	GumBallMachine()
+	{
+		noQuarterState = new NoQuarter(this);
+
+		state = noQuarterState;
+	}
+	~GumBallMachine() {}
+
+	GumBallState* getnoQuarterState()
+	{
+		return noQuarterState;
+	}
+
+	GumBallState* getQuarterState()
+	{
+		return hasQuarterState;
+	}
+
+	GumBallState* getdispenseState()
+	{
+		return hasQuarterState;
+	}
+
+	GumBallState* getQuarterState()
+	{
+		return hasQuarterState;
+	}
+
+private:
+	GumBallState* noQuarterState;
+	GumBallState* hasQuarterState;
+	GumBallState* dispense;
+	GumBallState* soldOut;
+
+	GumBallState* state;
+};
+
+
+#endif /* GUMBALLMACHINE_H_ */

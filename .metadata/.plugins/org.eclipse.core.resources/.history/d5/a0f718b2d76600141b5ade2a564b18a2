@@ -1,0 +1,21 @@
+/*
+ * HasQuarter.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef HASQUARTER_H_
+#define HASQUARTER_H_
+
+#include "C:GumBallState.h"
+
+class HasQuarter: public GumBallState {
+public:
+	HasQuarter(){}
+	~HasQuarter(){}
+
+
+};
+
+#endif /* HASQUARTER_H_ */

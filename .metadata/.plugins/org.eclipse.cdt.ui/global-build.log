@@ -1,17 +1,5 @@
-22:33:04 **** Incremental Build of configuration Debug for project Composite ****
+15:48:29 **** Incremental Build of configuration Debug for project State ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Composite.exe main.o 
-Info: Nothing to build for Composite
-22:33:23 **** Incremental Build of configuration Debug for project Composite ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Composite.exe main.o 
-22:33:44 **** Incremental Build of configuration Debug for project Composite ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Composite.exe main.o 
-Info: Nothing to build for Composite
-Info: Nothing to build for Composite
-Info: Nothing to build for Composite
-Info: Nothing to build for Composite
+g++ -o State.exe main.o GumBallMachine.o 
+Info: Nothing to build for State

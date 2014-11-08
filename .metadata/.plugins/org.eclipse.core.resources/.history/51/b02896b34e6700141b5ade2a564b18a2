@@ -1,0 +1,48 @@
+/*
+ * SoldOut.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef SOLDOUT_H_
+#define SOLDOUT_H_
+
+#include "GumBallState.h"
+#include "GumBallMachine.h"
+
+class SoldOut: public GumBallState {
+public:
+	SoldOut()
+	{
+
+	}
+	~SoldOut(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+
+	virtual void ejectCoin()
+	{
+
+	}
+
+	virtual void dispense()
+	{
+
+	}
+
+	virtual void turnCrank()
+	{
+
+	}
+
+	virtual void addGumBall()
+	{
+
+	}
+};
+
+#endif /* SOLDOUT_H_ */

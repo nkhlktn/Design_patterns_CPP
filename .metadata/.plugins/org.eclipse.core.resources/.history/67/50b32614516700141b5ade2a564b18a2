@@ -1,0 +1,18 @@
+/*
+ * StateFactory.cpp
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:StateFactory.h"
+
+StateFactory::StateFactory() {
+	// TODO Auto-generated constructor stub
+
+}
+
+StateFactory::~StateFactory() {
+	// TODO Auto-generated destructor stub
+}
+

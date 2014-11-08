@@ -1,0 +1,81 @@
+/*
+ * GumBallMachine.cpp
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#include "GumBallMachine.h"
+
+NoQuarter::NoQuarter(GumBallMachine* gumball)
+{
+	gumballObj = gumball;
+}
+
+NoQuarter::~NoQuarter(){}
+
+virtual void NoQuarter::insertCoin()
+{
+	cout<<"Entered a coin"<<endl;
+	gumballObj->setState( gumballObj->getQuarterState() );
+}
+
+virtual void NoQuarter::ejectCoin()
+{
+	cout<<"No Coin"<<endl;
+}
+
+virtual void NoQuarter::turnCrank()
+{
+	cout<<"Enter Coin"<<endl;
+}
+
+HasQuarter::HasQuarter(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+HasQuarter::~HasQuarter(){}
+
+virtual void HasQuarter:insertCoin()
+{
+	cout<<"Coin already present"<<endl;
+}
+
+virtual void HasQuarter::ejectCoin()
+{
+	cout<<"Collect your coin";
+	gumballObj->setState(gumballObj->getnoQuarterState());
+}
+
+virtual void HasQuarter::turnCrank()
+{
+	cout<<"Dispensing"<<endl;
+	gumballObj->decerementGumBalls();
+	if(gumballObj->hasGumBalls())
+	{
+		gumballObj->setState(gumballObj->getsoldOutState());
+	}
+	else
+	{
+		gumballObj->setState(gumballObj->getsoldOutState());
+	}
+}
+
+SoldOut(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+	~SoldOut(){}
+
+	virtual void insertCoin()
+	{
+		cout<<"No use"<<endl;
+	}
+	virtual void ejectCoin()
+	{
+		cout<<"No use"<<endl;
+	}
+	virtual void turnCrank()
+	{
+		cout<<"No use"<<endl;
+	}

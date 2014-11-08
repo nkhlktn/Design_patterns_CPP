@@ -1,0 +1,52 @@
+/*
+ * SaleMade.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef SALEMADE_H_
+#define SALEMADE_H_
+
+#include "GumBallState.h"
+#include "HasQuarter.h"
+
+class SaleMade: public GumBallState {
+public:
+	SaleMade(GumBallMachine* gumball)
+	{
+		this->gumball = gumball;
+	}
+	~SaleMade() {}
+
+	virtual void insertCoin()
+	{
+
+	}
+
+	virtual void ejectCoin()
+	{
+
+	}
+
+	virtual void dispense()
+	{
+		cout<<"You turned the crank"<<endl;
+		gumball->setState(gumball->getSaleMadeState());
+	}
+
+	virtual void turnCrank()
+	{
+
+	}
+
+	virtual void addGumBall()
+	{
+
+	}
+
+	private:
+		GumBallMachine* gumball;
+};
+
+#endif /* SALEMADE_H_ */

@@ -1,0 +1,37 @@
+/*
+ * GumBallMachine.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLMACHINE_H_
+#define GUMBALLMACHINE_H_
+
+#include "GumBallState.h"
+#include "HasQuarter.h"
+#include "NoQuarter.h"
+#include "SaleMade.h"
+#include "SoldOut.h"
+
+class GumBallMachine {
+public:
+	GumBallMachine(HasQuarter* HasQuarterObj,
+					NoQuarter* NoQuarterObj,
+					SaleMade* SaleMadeObj,
+					SoldOut* SoldOutOnj) {
+		HasQuarterState = HasQuarterObj;
+		NoQuarterState = NoQuarterObj;
+		SaleMadeState = SaleMadeObj;
+		SoldOutState = SoldOut;
+	}
+	~GumBallMachine() {}
+
+private:
+	GumBallState* NoQuarterState;
+	GumBallState* HasQuarterState;
+	GumBallState* SaleMadeState;
+	GumBallState* SoldOutState;
+};
+
+#endif /* GUMBALLMACHINE_H_ */

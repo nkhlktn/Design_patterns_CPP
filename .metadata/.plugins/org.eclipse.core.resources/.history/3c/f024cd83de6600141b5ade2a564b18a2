@@ -1,0 +1,20 @@
+/*
+ * SaleMade.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef SALEMADE_H_
+#define SALEMADE_H_
+
+#include "GumBallState.h"
+#include "HasQuarter.h"
+
+class SaleMade: public GumBallState {
+public:
+	SaleMade() {}
+	~SaleMade() {}
+};
+
+#endif /* SALEMADE_H_ */

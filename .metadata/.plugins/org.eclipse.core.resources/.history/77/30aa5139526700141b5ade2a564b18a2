@@ -1,0 +1,21 @@
+/*
+ * GumBallState.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLSTATE_H_
+#define GUMBALLSTATE_H_
+
+class GumBallState {
+public:
+	GumBallState(){}
+	~GumBallState(){}
+
+	virtual GumBallState* insertCoin() = 0;
+	virtual GumBallState* ejectCoin() = 0;
+	virtual GumBallState* turnCrank() = 0;
+};
+
+#endif /* GUMBALLSTATE_H_ */

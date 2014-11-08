@@ -1,0 +1,27 @@
+/*
+ * StateFactory.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef STATEFACTORY_H_
+#define STATEFACTORY_H_
+
+#include "HasQuarter.h"
+#include "NoQuarter.h"
+#include "SaleMade.h"
+#include "SoldOut.h"
+
+class StateFactory {
+public:
+	StateFactory(){}
+	~StateFactory(){}
+private:
+	GumBallState* instHasQuarterState()
+	{
+		
+	}
+};
+
+#endif /* STATEFACTORY_H_ */

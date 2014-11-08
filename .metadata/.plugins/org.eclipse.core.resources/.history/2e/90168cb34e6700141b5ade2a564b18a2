@@ -1,0 +1,36 @@
+/*
+ * GumBallState.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLSTATE_H_
+#define GUMBALLSTATE_H_
+
+class GumBallState {
+public:
+	GumBallState(){}
+	~GumBallState(){}
+
+	static void setNumberOfGumBalls(int number)
+	{
+		numberGumBalls = number;
+	}
+
+	static void decerementGumBallsByOne()
+	{
+		numberGumBalls--;
+	}
+
+	virtual void insertCoin() = 0;
+	virtual void ejectCoin() = 0;
+	virtual void dispense() = 0;
+	virtual void turnCrank() = 0;
+	virtual void addGumBall() = 0;
+
+private:
+	static int numberGumBalls;
+};
+
+#endif /* GUMBALLSTATE_H_ */

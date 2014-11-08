@@ -1,0 +1,55 @@
+/*
+ * HasQuarter.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef HASQUARTER_H_
+#define HASQUARTER_H_
+#include "GumBallMachine.h"
+
+
+#include<iostream>
+using namespace std;
+
+class HasQuarter: public GumBallState {
+public:
+	HasQuarter(GumBallMachine* gumball)
+	{
+		this->gumball = gumball;
+	}
+
+	~HasQuarter(){}
+
+	virtual void insertCoin()
+	{
+
+	}
+
+	virtual void ejectCoin()
+	{
+		cout<<"Eject coin"<<endl;
+		gumball->setState(GumBallMachine::getInst()->getNoQuarterState());
+	}
+
+	virtual void dispense()
+	{
+
+	}
+
+	virtual void turnCrank()
+	{
+		cout<<"You turned the crank"<<endl;
+		gumball->setState(GumBallMachine::getInst()->getSaleMadeState());
+	}
+
+	virtual void addGumBall()
+	{
+
+	}
+private:
+	GumBallMachine* gumball;
+};
+
+#endif /* HASQUARTER_H_ */

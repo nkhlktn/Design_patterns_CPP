@@ -1,0 +1,127 @@
+/*
+ * GumBallMachine.cpp
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#include "GumBallMachine.h"
+
+NoQuarter::NoQuarter(GumBallMachine* gumball)
+{
+	gumballObj = gumball;
+}
+
+NoQuarter::~NoQuarter(){}
+
+virtual void NoQuarter::insertCoin()
+{
+	cout<<"Entered a coin"<<endl;
+	gumballObj->setState( gumballObj->getQuarterState() );
+}
+
+virtual void NoQuarter::ejectCoin()
+{
+	cout<<"No Coin"<<endl;
+}
+
+virtual void NoQuarter::turnCrank()
+{
+	cout<<"Enter Coin"<<endl;
+}
+
+HasQuarter::HasQuarter(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+HasQuarter::~HasQuarter(){}
+
+virtual void HasQuarter:insertCoin()
+{
+	cout<<"Coin already present"<<endl;
+}
+
+virtual void HasQuarter::ejectCoin()
+{
+	cout<<"Collect your coin";
+	gumballObj->setState(gumballObj->getnoQuarterState());
+}
+
+virtual void HasQuarter::turnCrank()
+{
+	cout<<"Dispensing"<<endl;
+	gumballObj->decerementGumBalls();
+	if(gumballObj->hasGumBalls())
+	{
+		gumballObj->setState(gumballObj->getsoldOutState());
+	}
+	else
+	{
+		gumballObj->setState(gumballObj->getsoldOutState());
+	}
+}
+
+SoldOut::SoldOut(GumBallMachine* gumball)
+	{
+		gumballObj = gumball;
+	}
+SoldOut::~SoldOut(){}
+
+virtual void SoldOut::insertCoin()
+{
+	cout<<"No use"<<endl;
+}
+virtual void SoldOut::ejectCoin()
+{
+	cout<<"No use"<<endl;
+}
+virtual void SoldOut::turnCrank()
+{
+	cout<<"No use"<<endl;
+}
+
+GumBallMachine::GumBallMachine(int numberOfGumBalls)
+	{
+		noQuarterState = new NoQuarter(this);
+		hasQuarterState = new HasQuarter(this);
+		soldOut = new SoldOut(this);
+
+		state = noQuarterState;
+
+		this->numberOfGumBalls = numberOfGumBalls;
+	}
+GumBallMachine::~GumBallMachine() {}
+
+	GumBallState* GumBallMachine::getnoQuarterState()
+	{
+		return noQuarterState;
+	}
+
+	GumBallState* GumBallMachine::getQuarterState()
+	{
+		return hasQuarterState;
+	}
+
+	GumBallState* GumBallMachine::getsoldOutState()
+	{
+		return soldOut;
+	}
+
+	void setState(GumBallState* state)
+	{
+		this->state = state;
+	}
+	bool hasGumBalls()
+	{
+		bool retval = false;
+		if( numberOfGumBalls > 0 )
+		{
+			retval = true;
+		}
+		return retval;
+	}
+
+	void decerementGumBalls()
+	{
+		numberOfGumBalls--;
+	}

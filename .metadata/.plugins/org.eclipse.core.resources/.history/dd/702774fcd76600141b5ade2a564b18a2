@@ -1,0 +1,18 @@
+/*
+ * GumBallMachine.cpp
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#include "C:GumBallMachine.h"
+
+GumBallMachine::GumBallMachine() {
+	// TODO Auto-generated constructor stub
+
+}
+
+GumBallMachine::~GumBallMachine() {
+	// TODO Auto-generated destructor stub
+}
+

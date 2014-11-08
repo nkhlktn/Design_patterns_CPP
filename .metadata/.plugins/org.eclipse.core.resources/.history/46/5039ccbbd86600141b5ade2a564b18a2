@@ -1,0 +1,22 @@
+/*
+ * GumBallMachine.h
+ *
+ *  Created on: Nov 7, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef GUMBALLMACHINE_H_
+#define GUMBALLMACHINE_H_
+
+#include "GumBallState.h"
+class GumBallMachine {
+public:
+	GumBallMachine() {}
+	~GumBallMachine() {}
+
+private:
+	GumBallState* NoQuarterState;
+
+};
+
+#endif /* GUMBALLMACHINE_H_ */

@@ -1,0 +1,15 @@
+/*
+ * NoQuarter.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef NOQUARTER_H_
+#define NOQUARTER_H_
+
+#include "GumBallState.h"
+
+
+
+#endif /* NOQUARTER_H_ */

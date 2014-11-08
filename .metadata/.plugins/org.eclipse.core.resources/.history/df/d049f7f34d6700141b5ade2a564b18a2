@@ -1,0 +1,17 @@
+/*
+ * StateFactory.h
+ *
+ *  Created on: Nov 8, 2014
+ *      Author: Nikhil
+ */
+
+#ifndef STATEFACTORY_H_
+#define STATEFACTORY_H_
+
+class StateFactory {
+public:
+	StateFactory();
+	~StateFactory();
+};
+
+#endif /* STATEFACTORY_H_ */
